@@ -1,0 +1,202 @@
+//new Navigation bar test
+$nav-height: 45px
+$mobile-screen-size: 1000px
+
+//mobile menu settings
+$mobmen-bg-color: $dark //$black
+
+$mobmen-punkte-abstand: 50px //(was 75 px)
+$mobmen-circle-size: 50px
+$menu-bg-pos: 40px  //abstand nach oben und rechts
+$mobmen-hamburger-top: 33px
+$mobmen-hamburger-right: 26px
+
+//font settings - copied from screen.sass
+//font settings
+$big-font-size: 2.5rem
+$medium-font-size: 2.5rem
+$hamburger-font-size: 2rem
+$smaller-font-size: 1.5rem
+$small-font-size: 1.0rem
+
+#nav
+  @extend .gradient-green
+  +outer-container(100%)
+  height: $nav-height
+  a
+    +span-columns(3)
+    text-align: center
+    height: $nav-height
+    h2
+      @extend .noselect
+      line-height: 15px
+      margin-top: 15px
+      font-size: 2rem
+      font-weight: 600
+      text-align: center
+  a:hover
+    height: $nav-height //needed, sonst ist a:hover > #nav
+    background-color: $green-lighter
+    @extend .gradient-green-dark
+    @include transition(background-color 0.2s ease-in-out)
+    //@include transition(opacity 1.0s ease-in 0s, width 2.0s ease-in 2s)
+  a:active
+    //background-color: $green-lightest
+    @extend .gradient-green-light
+    @include transition(background-color 0.05s ease-in-out)
+    //@include transition(opacity 1.0s ease-in 0s, width 2.0s ease-in 2s)
+
+// ## Media Queries ##
+
+// ## DESKTOP
+@media only screen and (min-width: $mobile-screen-size)
+  .menu-burger
+    visibility: hidden
+  .menu-bg
+    visibility: hidden
+  .topnav
+    display: block
+
+// ## MOBILE
+@media only screen and (max-width: $mobile-screen-size)
+  .topnav
+    visibility: hidden
+    height: 0
+  #nav-mobile
+    display: block
+    img
+      +span-columns(2)
+
+
+// ## Mobile ##
+
+.menu
+  z-index: 4
+  position: fixed
+  width: $mobmen-circle-size
+  height: $mobmen-circle-size
+  font-size: 60px
+  text-align: right
+  border-radius: 100%
+  right: 50px
+  top: 70px
+
+.menu-burger
+  top: $mobmen-hamburger-top
+  right: $mobmen-hamburger-right
+  z-index: 4
+  @extend .menu
+  font-size: $hamburger-font-size
+  margin-top: -7px
+  color: $white
+  -webkit-user-select: none
+  cursor: pointer
+  transition: .4s
+  transform-origin: center
+  &.fs
+    transform: rotate(-180deg) translateY(0px)
+    top: $mobmen-hamburger-top
+    right: $mobmen-hamburger-top
+
+.menu-bg
+  z-index: 3
+  @extend .menu
+  //background: $green;
+  background-color: $mobmen-bg-color
+  pointer-events: none
+  transition: .3s
+  right: $menu-bg-pos
+  top: $menu-bg-pos
+  transform: translate3d(50%,-50%,0)
+  transform-origin: center center
+  &.fs
+    transform: translate3d(50%,-50%,0)
+    width: 300vw
+    height: 300vw
+
+.menu-items
+  //position: fixed !important
+  a
+    @extend .main-font
+  z-index: 4
+  position: fixed
+  font-weight: bold
+  letter-spacing: 10px
+  color: white
+  width: 100%
+  text-align: center
+  opacity: 0
+  transition: .4s
+  margin-top: 100px
+  transform: translateY(-200%)
+  pointer-events: none
+  a
+    @extend .main-font
+    font-weight: 600
+    font-style: bold
+    font-size: $big-font-size
+    color: $white
+    text-decoration: none
+  div
+    @extend .main-font
+    transition: 1s
+    opacity: 0
+    margin-top: 0px
+  &.fs
+    transform: translateY(0)
+    pointer-events: auto
+    opacity: 1
+    div
+      opacity: 1
+      margin-top: $mobmen-punkte-abstand //was 75
+
+.content
+  padding: 100px 50px
+  line-height: 1.62em
+  color: #444
+  h1
+    font-weight: bold
+    font-size: 2em
+    margin-bottom: 1em
+
+// ## Desktop Navigation##
+
+// Top Navigation
+.topnav
+  list-style: none
+  text-align: center
+  margin: 0
+  padding: 0
+.topnav li
+  display: inline
+  margin-right: 0.5em
+.topnav a
+  @extend .main-font
+  font-size: 2rem
+  display: inline-block
+  padding: 0.25em 0.5em
+  text-decoration: none
+  background: $grey
+  color: $black
+  border: 1px solid $grey
+.topnav a:hover
+  //background: $green
+  transition: background 0.4s
+  border-color: #ddd
+//##versuchte ne hover animation fürs menu zu machen...##
+//margin-top: -20px
+//transition: 0.5s
+//position: inherit
+.topnav li.current a
+  background: #ddd
+  border-color: #ddd
+
+//background styles
+.desktop-hamburger-bg
+  background-color: $green
+  width: 60px
+  height: 45px
+  position: inherit
+  margin: auto
+
+  // ## Desktop Hamburger Animation END ##

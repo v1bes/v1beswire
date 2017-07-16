@@ -1,0 +1,50 @@
+//Design color variables
+//$mainColor: #
+$bgColor: #5C6366 //#333333
+$specialColor: #D56172
+$buttonColor: #5C6366
+$buttonHoverColor: $specialColor
+$darkBgColor: #333333
+$pink: #D56172
+$pink-see-through: opacity (#D56172, 0.8)
+$dark: #333333
+$light: #5C6366
+$white: #FFFFFF
+$brown: #403F39
+$white: #ffffff
+$green: #9fceac
+$green-slight-darker: #a0c1ac
+$green-darker: #93b19e
+$green-lighter: #bce3ca
+$green-lightest: #dbfee5
+$almost-white: #eff2f2
+$grey: #eee
+$black: #000000
+
+.black
+  color: black
+
+.border
+  border: $brown 2px solid
+.borderGrey
+  border: $light 2px solid
+
+.gradient
+  $start-gradient-color: $white
+  $end-gradient-color: #f5f6f8 //#e8eaea
+  +linear-gradient($start-gradient-color, $end-gradient-color)
+
+.gradient-green
+  $start-g-green-color: #a0cdad
+  $end-g-green-color: #a0c1ac //#aacdb7
+  +linear-gradient($start-g-green-color, $end-g-green-color)
+
+.gradient-green-light
+  $start-g-green-color: $green-lightest
+  $end-g-green-color: $green //#aacdb7
+  +linear-gradient($start-g-green-color, $end-g-green-color)
+
+.gradient-green-dark
+  $start-g-green-color: $green-slight-darker
+  $end-g-green-color: $green
+  +linear-gradient($start-g-green-color, $end-g-green-color)

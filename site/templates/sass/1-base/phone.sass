@@ -1,0 +1,17 @@
+$menu-padding: 0.2em
+$mobile-screen-size: 500px
+
+@media only screen and (max-width: $mobile-screen-size)
+  // Cover Text
+  .cover-text
+    font-size: 1.3rem
+  // 3 Kategorie - Bilder
+  .cat
+    h2
+      font-size: 1rem
+      font-weight: 400
+  // Top-Nav
+  .topnav
+    +span-columns(12)
+  .topnav li
+    +span-columns(3)

@@ -1,0 +1,98 @@
+2017-03-02 01:37:37	admin	http://xn--frulein-6wa:8888/bearbeiten/module/?reset=1	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-03-02 01:37:38	admin	http://xn--frulein-6wa:8888/bearbeiten/module/?reset=1	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-02 01:37:42	admin	http://xn--frulein-6wa:8888/bearbeiten/module/?reset=1	Compiled file: /site/modules/MarkupBlog/ProcessBlog.module
+2017-03-02 01:41:08	admin	http://xn--frulein-6wa:8888/bearbeiten/blog/	Compiled file: /site/modules/MarkupBlog/BlogInstallWizard.php
+2017-03-02 01:46:38	admin	http://xn--frulein-6wa:8888/example-post/	Compiled file: /site/templates/blog-post.php
+2017-03-02 01:46:38	admin	http://xn--frulein-6wa:8888/example-post/	Compiled file: /site/templates/blog-main.inc
+2017-03-02 01:46:38	admin	http://xn--frulein-6wa:8888/example-post/	Compiled file: /site/templates/blog-side-bar.inc
+2017-03-02 02:12:20	admin	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/templates/blog.php
+2017-03-02 02:18:08	admin	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/templates/blog.php
+2017-03-02 02:18:25	admin	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/templates/blog.php
+2017-03-02 02:19:11	admin	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/templates/blog-main.inc
+2017-03-06 20:43:36	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 20:44:15	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 20:46:21	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 20:53:17	guest	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 20:55:44	guest	http://xn--frulein-6wa:8888/blog/	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 21:20:41	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 21:21:12	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 21:24:51	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-06 21:25:28	admin	http://xn--frulein-6wa:8888/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-08 20:30:57	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-03-08 20:32:11	guest	http://bloom.v1b.es/blog/	Compiled file: /site/templates/blog.php
+2017-03-08 20:32:11	guest	http://bloom.v1b.es/blog/	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-03-08 20:58:27	admin	http://www.bloom.v1b.es/bearbeiten/access/users/edit/?id=1075&new=1	Kompilierte Datei: /site/modules/MarkupBlog/ProcessBlog.module
+2017-03-08 21:22:52	admin	http://bloom.v1b.es/blog/autoren/steffi-stilper/	Kompilierte Datei: /site/templates/blog-authors.php
+2017-03-10 20:43:07	guest	http://www.bloom.v1b.es/blog/posts/vierter-test-post/	Compiled file: /site/templates/blog-post.php
+2017-03-25 18:01:12	guest	http://www.bloom.v1b.es/blog/posts/	Compiled file: /site/templates/blog-posts.php
+2017-05-30 14:28:01	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/home.php => /site/assets/cache/FileCompiler/site/templates/home.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-posts.php => /site/assets/cache/FileCompiler/site/templates/blog-posts.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/admin.php => /site/assets/cache/FileCompiler/site/templates/admin.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-main.inc => /site/assets/cache/FileCompiler/site/templates/blog-main.inc
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/_init.php => /site/assets/cache/FileCompiler/site/templates/_init.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-authors.php => /site/assets/cache/FileCompiler/site/templates/blog-authors.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog.php => /site/assets/cache/FileCompiler/site/templates/blog.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/sitemap.php => /site/assets/cache/FileCompiler/site/templates/sitemap.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/basic-page.php => /site/assets/cache/FileCompiler/site/templates/basic-page.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-side-bar.inc => /site/assets/cache/FileCompiler/site/templates/blog-side-bar.inc
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/_main.php => /site/assets/cache/FileCompiler/site/templates/_main.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-post.php => /site/assets/cache/FileCompiler/site/templates/blog-post.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/about.php => /site/assets/cache/FileCompiler/site/templates/about.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-recent-comments.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-recent-comments.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-tag.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-tag.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-recent-tweets.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-recent-tweets.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-categories.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-categories.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-category.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-category.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-posts.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-posts.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-comments.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-comments.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-main.inc => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-main.inc
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-archives.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-archives.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-links.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-links.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-authors.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-authors.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-recent-posts.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-recent-posts.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-tags.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-tags.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-side-bar.inc => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-side-bar.inc
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/template-files/blog-post.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/template-files/blog-post.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/BlogCleanup.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/BlogCleanup.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/BlogInstallWizard.php => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/BlogInstallWizard.php
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/ProcessBlog.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/ProcessBlog.module
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/MarkupBlog.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/MarkupBlog.module
+2017-06-04 12:19:04	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/BlogPublishDate.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-04 12:20:25	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-04 16:46:54	admin	http://localhost/frl/blog/	Kompilierte Datei: /site/templates/blog.php
+2017-06-04 16:46:54	admin	http://localhost/frl/blog/	Kompilierte Datei: /site/modules/MarkupBlog/MarkupBlog.module
+2017-06-04 17:46:23	admin	http://localhost/frl/kontakt/	Kompilierte Datei: /site/templates/contact.php
+2017-06-04 17:48:55	admin	http://localhost/frl/kontakt/	Kompilierte Datei: /site/templates/contact.php
+2017-06-04 17:49:04	admin	http://localhost/frl/kontakt/	Kompilierte Datei: /site/templates/contact.php
+2017-06-04 17:56:50	admin	http://localhost/frl/bearbeiten/blog/	Kompilierte Datei: /site/modules/MarkupBlog/ProcessBlog.module
+2017-06-07 15:16:14	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-07 17:22:29	guest	http://xn--frulein-6wa:8888/frl/blog/	Compiled file: /site/templates/blog.php
+2017-06-07 17:22:29	guest	http://xn--frulein-6wa:8888/frl/blog/	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/_init.php => /site/assets/cache/FileCompiler/site/templates/_init.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog.php => /site/assets/cache/FileCompiler/site/templates/blog.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/basic-page.php => /site/assets/cache/FileCompiler/site/templates/basic-page.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/contact.php => /site/assets/cache/FileCompiler/site/templates/contact.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/about.php => /site/assets/cache/FileCompiler/site/templates/about.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/home.php => /site/assets/cache/FileCompiler/site/templates/home.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/_main.php => /site/assets/cache/FileCompiler/site/templates/_main.php
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/templates/blog-main.inc => /site/assets/cache/FileCompiler/site/templates/blog-main.inc
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/MarkupBlog.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/MarkupBlog.module
+2017-06-20 22:47:47	guest	http://xn--frulein-6wa:8888/frl/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/BlogPublishDate.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-20 22:47:47	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-06-20 22:47:52	guest	http://xn--frulein-6wa:8888/frl/blog/	Compiled file: /site/templates/blog.php
+2017-06-20 22:47:52	guest	http://xn--frulein-6wa:8888/frl/blog/	Compiled file: /site/modules/MarkupBlog/MarkupBlog.module
+2017-07-16 19:16:56	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/_init.php => /site/assets/cache/FileCompiler/site/templates/_init.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/admin.php => /site/assets/cache/FileCompiler/site/templates/admin.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/blog.php => /site/assets/cache/FileCompiler/site/templates/blog.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/basic-page.php => /site/assets/cache/FileCompiler/site/templates/basic-page.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/contact.php => /site/assets/cache/FileCompiler/site/templates/contact.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/about.php => /site/assets/cache/FileCompiler/site/templates/about.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/home.php => /site/assets/cache/FileCompiler/site/templates/home.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/_main.php => /site/assets/cache/FileCompiler/site/templates/_main.php
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/templates/blog-main.inc => /site/assets/cache/FileCompiler/site/templates/blog-main.inc
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/MarkupBlog.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/MarkupBlog.module
+2017-07-16 19:16:56	guest	http://xn--frulein-6wa:8888/v1beswire/	Maintenance/Copy new version of source file to target file: /site/modules/MarkupBlog/BlogPublishDate.module => /site/assets/cache/FileCompiler/site/modules/MarkupBlog/BlogPublishDate.module
+2017-07-16 19:17:11	?	?	Compiled file: /site/modules/MarkupBlog/BlogPublishDate.module

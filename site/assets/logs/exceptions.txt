@@ -1,0 +1,4 @@
+2017-03-01 17:27:14	guest	http://xn--frulein-6wa:8888/bearbeiten/login/	SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ProcessLogger' for key 'class' (in /wire/core/Modules.php line 1672)
+2017-03-01 17:27:14	guest	http://xn--frulein-6wa:8888/bearbeiten/login/	SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'InputfieldIcon' for key 'class' (in /wire/core/Modules.php line 1672)
+2017-03-01 17:27:34	guest	http://xn--frulein-6wa:8888/bearbeiten/login/	This request was aborted because it appears to be forged. (in /wire/core/SessionCSRF.php line 190)
+2017-03-02 03:18:28	admin	http://xn--frulein-6wa:8888/bearbeiten/module/	Unable to find any module files (in /wire/modules/Process/ProcessModule/ProcessModuleInstall.php line 249)

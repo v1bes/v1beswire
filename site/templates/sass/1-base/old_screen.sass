@@ -1,0 +1,394 @@
+font
+  color: tint(black, 20%)
+  text-decoration: none
+  font-size: 1.8rem
+  font-family: m-1c, sans-serif
+  font-style: normal
+  font-weight: 300
+.whitebg
+  background: white
+.darkbg
+  background: tint(black, 30%)
+.lightbg
+  background: tint(black, 90%)
+.pinkbg
+  background: tint(lightpink, 40%)
+.green
+  color: tint(green, 40%)
+.round
+  border-radius: 1em
+body
+  //@extend .whitebg
+  min-width: 280px
+.topbar
+  +outer-container()
+  max-width: 100%
+  @extend .round
+  @extend .lightbg
+  margin-bottom: 1em
+h1
+  @extend font
+  color: $white
+  +span-columns(12)
+  text-align: center
+span
+  color: tint(black, 20%)
+  text-decoration: none
+  //font-size: 1.8rem
+  font-family: m-1c, sans-serif
+  font-style: normal
+  //font-weight: 300
+
+a:visited
+  text-decoration: none
+p
+  @extend font
+  text-align: center
+section
+  +clearfix
+  +outer-container
+.pw-box
+  @include span-columns(12)
+  text-align: center
+  margin: 0 auto
+  margin-top: 30px
+#TextBox
+  @include span-columns(2)
+  @include shift(5)
+  //width: 100%
+  font-size: 2rem
+  //@extend .round
+  text-align: center
+  @extend center
+  @media only screen and (max-width: 800px)
+    @include span-columns(6)
+    +shift(3)
+#TextBox:focus
+    outline: none !important
+#enter
+  color: $white
+  @extend center
+  +shift(5)
+  @include span-columns(2)
+  @media only screen and (max-width: 800px)
+    +shift(4)
+    @include span-columns(4)
+#enter:hover
+  cursor: pointer
+#reserve_btn
+  background-color: $green
+  color: $white
+  padding: 4px
+  @extend center
+  +shift(4)
+  @include span-columns(4)
+  @media only screen and (max-width: 800px)
+    +shift(1)
+    @include span-columns(10)
+#reserve_btn:hover
+  cursor: pointer
+.imgbox
+  @include span-columns(6)
+  @include shift(3)
+.success
+  position: fixed
+  @extend .green
+  background-color: $white
+  opacity: 0.9
+  padding: 3px
+  +span-columns(6)
+  +shift(3)
+  margin-top: 180px
+
+
+#TextBox
+  @extend .lightbg
+table
+  @extend .lightbg
+#passwd-field
+  +clearfix
+a
+  text-decoration: none
+  @extend font
+  color: $dark
+#goback
+  background-color: $white
+  opacity: 0.9
+  padding: 2px
+  font-size: 20px
+  @extend .borderGrey
+  +span-columns(4)
+  +shift(4)
+  @media only screen and (min-width: 1000px)
+    +span-columns(2)
+    +shift(5)
+#gobackAbstand
+  background-color: $white
+  opacity: 0.9
+  padding: 2px
+  font-size: 20px
+  @extend .borderGrey
+  +span-columns(4)
+  +shift(4)
+  @media only screen and (min-width: 1000px)
+    +span-columns(2)
+    +shift(5)
+#gobackLink
+  +span-columns(12)
+#gobackLinkAbstand
+  position: absolute
+  top: 300px
+  +span-columns(12)
+#bgPIC
+  width: 100%
+  height: 100%
+  background-image: url("/img/plates.jpg")
+  background-size: cover
+  background-attachment: fixed
+  margin: 0
+  padding: 0
+.bg-schmuggler
+  width: 100%
+  height: 100%
+  background-image: url("/img/bgvid.jpg") no-repeat center center fixed cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  background-attachment: fixed
+  margin: 0
+  padding: 0
+  //overflow-y: hidden
+
+//thank you page
+
+.thankyou_body
+  background-color: $white
+  +outer-container(100%)
+
+.msg_bg
+  padding: 20px
+  background-color: $green
+  color: $white !important
+  +span-columns(12)
+
+
+  //////------- from 'select.sass' --------- ////////
+  h2
+  @extend font
+.input_felder
+  +span-columns(6)
+  +shift(3)
+@media only screen and (max-width: 1000px)
+  .input_felder
+    +span-columns(12)
+    +shift(0)
+.chooser
+  margin-top: 100px
+  @extend center
+  float: inherit
+  +outer-container()
+.choose-box
+  display: inline
+  +span-columns(3)
+  +shift(2)
+  @extend .gradient-green
+  h2
+    color: white
+    display: block
+    //background-color: $green
+    //border: white 8px solid
+    //@extend .gradient-green
+    height: 130px
+    padding-top: 30px
+    font-size: 1.3rem
+    font-weight: bold
+  @media only screen and (min-width: 1000px)
+    +span-columns(2)
+    +shift(2.8)
+
+.flag
+  max-width: 50px
+  +span-columns(1)
+  float: none
+//+shift(.5)
+
+#h2Menu
+  padding-top: 87px
+  @media only screen and (min-width: 1000px)
+    padding-top: 400px
+  @media only screen and (max-width: 570px)
+    padding-top: 75px
+.counter_btns
+  margin-bottom: 20px
+  +span-columns(4)
+  +shift(5)
+input[type=test], textarea
+  @extend .borderGrey
+
+#personencounter
+  overflow: hidden
+  //background-color: $almost-white
+  @extend .gradient
+  //height: 630px //why did i even do that?
+  @extend .input_felder
+  textarea
+    border: none
+  input
+    @extend .borderGrey
+    border: none
+  input, .input_a, textarea
+    @extend .input_felder
+    font-size: 1.4rem
+    text-align: center
+  .input_a
+    display: inline
+    width: 30px
+    height: 30px
+    background-color: $green
+    p
+      color: $white
+      line-height: 0px
+      margin-top: 13px
+  #clicker2
+    @extend center
+  #TischAnfragen
+    margin-top: 20px
+    background-color: $green
+    @extend .input_felder
+    @extend .borderGrey
+  h1
+    color: $green
+    font-weight: bold
+
+#uhrzeit-auswahl
+  //float: left
+  margin-top: 10px
+  clear: none
+  background-color: white
+  padding: 10px
+  @extend .input_felder
+  input[type=radio], input.radio
+    display: inline
+    vertical-align: top
+    line-height: 10px
+    float: left
+    clear: none
+  //margin: 2px 0 0 2px
+  //margin-left: 30%
+  h3
+    vertical-align: top
+    @extend font
+    text-align: center
+    font-size: 1rem
+    @extend .input_felder
+    float: left
+    clear: none
+    display: block
+    //padding: 2px 1em 0 0
+    margin-top: -20px
+//margin-left: 80px
+//+span-columns(12)
+//+shift(5)
+
+input[type=radio]:hover
+  cursor: pointer
+label
+  h3:hover
+    cursor: pointer
+input[type=radio]
+  @extend .noselect
+  top: 1em
+  position: relative
+input[type=radio] + label
+  @extend .noselect
+  top: 1em
+  position: relative
+
+input[type=radio]:checked + label
+  @extend .noselect
+  //background-color: $green
+  width: 100%
+  //height: 2rem
+  //display: inline-block
+  h3
+    background-color: $green
+    padding: 10px
+    width: 100%
+    font-weight: 600
+    +span-columns(12)
+input[type=radio]
+  visibility: hidden
+ul
+  list-style: none
+
+#19u
+  display: none
+#TischAnfragen:hover
+  cursor: pointer
+.submitFormBtn
+  color: white
+  border: none
+  padding: 4px
+.counterBtn:hover
+  cursor: pointer
+.reservation_inputs
+  margin-top: 10px
+#ninja
+  display: none !important
+#date_selector
+  background-color: $green
+.msg
+  color: $green
+  @extend center
+  @extend font
+.note-wrapper
+  padding: 40px
+  +outer-container()
+  p
+    text-align: left
+    font-size: 1rem
+    display: inline
+    +span-columns(12)
+span.price
+  float: right
+.place_holder
+  color: white
+  background-color: $green
+#day_chooser
+  top: 0
+  @extend .borderGrey
+.bg-gif-html
+  background:  url(/img/tastetherainbow.gif) no-repeat center center fixed
+  background-size: cover
+.bg-gif-body
+  height: 100%
+.red
+  color: red
+.numInputWrapper
+  input
+    font-size: 1.5rem
+//TODO input Placeholder shit
+
+.o-x-hidden
+  overflow-x: hidden
+.o-y-hidden
+  overflow-y: hidden
+
+.ohi
+  overflow: hidden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

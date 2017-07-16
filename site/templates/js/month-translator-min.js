@@ -1,0 +1,1 @@
+$(".date").text(function(){return this.innerHTML.replace("March","März")}),$(".date").text(function(){this.innerHTML.replace("May","Mai")}),$(".date").text(function(){return this.innerHTML.replace(" am"," Uhr")}),$(".date").text(function(){return this.innerHTML.replace(" pm"," Uhr")});

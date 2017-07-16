@@ -1,0 +1,131 @@
+//main SASS stylesheet for Fräulein Grün
+
+*
+  box-sizing: border-box
+body
+  padding: 5%
+  margin: 0 auto
+  overflow-x: hidden
+  // background-color: black
+
+//font settings
+$big-font-size: 2.5rem
+$medium-font-size: 2.5rem
+$hamburger-font-size: 2rem
+$smaller-font-size: 1.5rem
+$small-font-size: 1.0rem
+
+//Frente Font
+@include font-face(Frente, fonts/frente)
+//@font-face
+  font-family: "Frente"
+  font-weight: normal
+  src: url("fonts/frente.otf") format("otf")
+
+
+.main-font
+  font-family: 'Frente', sans-serif
+  // 'Amatic SC'
+  text-decoration: none
+
+p,a
+  @extend .main-font
+p
+  font-size: 1.7rem
+a
+  font-size: 1.3rem
+
+#content h2, #content p
+  text-align: center
+
+iframe
+  display: block
+  margin: auto
+  +span-columns(12)
+
+//Logo
+.Logo
+  //max-width: 250px
+  margin: auto
+  +outer-container()
+  +shift(5)
+  img
+    +span-columns(3)
+
+//Cover Image
+.cover
+  position: relative
+.cover-image
+  @extend .noselect
+  +outer-container(100%)
+  width: 100%
+  //margin: 0 auto
+  img
+    width: 100%
+.cover-text
+  color: $white
+  position: absolute
+  top: 35%
+  text-align: center
+  font-size: $medium-font-size
+  +span-columns(10)
+  +shift(1)
+  h1
+    @extend .noselect
+    @extend .main-font
+    text-shadow: 0 2px 5px black
+  h1:hover
+    cursor: default
+
+//Cat-Images
+.cat-images
+  margin-top: 1em
+  +outer-container(100%)
+.cat
+  position: relative
+  //display: inline-block
+  +span-columns(4)
+  img
+    width: 100%
+  h2
+    @extend .main-font
+    color: $white
+    font-size: $medium-font-size
+    font-weight: 800
+    //font-weight: 1000px
+    position: absolute
+    top: 35%
+    text-align: center
+    width: 100%
+    text-shadow: 0 2px 5px black
+.cat:hover
+  cursor: pointer
+
+//breadcrumbs style
+.breadcrumbs
+  span
+    @extend .main-font
+    font-size: $smaller-font-size
+
+// main content
+#main
+  +outer-container
+  #content
+    +span-columns(12)
+    h2
+      @extend .main-font
+      font-size: $medium-font-size
+
+// blog styles
+//.post-byline
+  .author, .edit
+    display: none //hide english
+.MarkupPagerNav
+  margin: auto
+  text-align: center
+  li
+    display: inline
+hr
+  opacity: .1
+.webdev
+  float: right

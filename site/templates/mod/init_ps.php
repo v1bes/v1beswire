@@ -1,0 +1,1 @@
+<!-- ## Moved this back to photoswipe.php ## -->
