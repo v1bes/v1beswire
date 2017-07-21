@@ -1,0 +1,5 @@
+Wichtig:
+Die config.php ( site/config.php) müsst ihr manuell reinziehen,
+die ist nicht in Github, wegen den Passwörtern.
+
+Henry
