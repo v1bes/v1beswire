@@ -1,8 +1,8 @@
-#v1bes Processwire Starter Kit
+# v1bes Processwire Starter Kit
 
-##Installation
+## Installation
 
-###1.Database installieren
+### 1.Database installieren
 -Mysql DB dumps befinden sich in dumps/
 #### Installation mit Mamp
 -In Mamp Pro
