@@ -16,6 +16,9 @@
 -"Import" tab
 -"Choose File" > DB dump file auswählen ( /dumps/)
 
+-config.php in /site/ installieren und mit DB verbinden
+
+-mit Mamp web root hosten
  
 #### Installtion cli
 -soon
