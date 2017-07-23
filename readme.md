@@ -55,7 +55,7 @@
 	- comment: # RewriteRule ^(.*)$ /index.php?it=$1 [L,QSA]
 		-(at the bottom of .htaccess for PW, line 217 and 222, for me)
 
-###Processwire erkennt .htaccess nicht
+### Processwire erkennt .htaccess nicht
 -> /etc/apache2/apache2.conf
 	- AllowOverride None -> All
 	- Require all granted
