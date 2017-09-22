@@ -109,8 +109,8 @@ DirectoryIndex index.php index.html index.htm
   # And if your site directory starts with a "~" you will most likely have to use this.
   # -----------------------------------------------------------------------------------------------
 
-   #RewriteBase /
-   RewriteBase /frl/
+#RewriteBase /var/www/html/v1beswire/
+RewriteBase /v1beswire/
    # RewriteBase /var/www/html/frl/
   # RewriteBase /
   # RewriteBase /pw/
