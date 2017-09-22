@@ -43,8 +43,9 @@
 	-#Options +FollowSymLinks
 	-#Options +SymLinksifOwnerMatch
 - Rewrite Base:
-	-  /
-	- /projekt/
+    (wenn apache2: /var/ww/html/projekt/ (auch symlinks) dann-> /projekt/)	
+-  /
+	- /projekt/  (normalerweise)
 	- /var/www/html/project
 	- /home/user/sites/project
 - check if 'mod_rewrite' enabled:
